@@ -1,0 +1,40 @@
+<hr size="10">
+<h2 class="text-center" style="font-size: 32px;">Productos</h2>
+<hr size="10">
+<div class="container" id="container-suc">
+    <center>
+        
+    </center>
+</div>
+<br>
+
+<div class="row">
+    <div class="col-sm-1" style="padding-right: 5px;">
+        <button class="btn btn-outline-primary" id="btnActivas" onclick="loadMovimiento();">Entradas</button>
+    </div>
+    <div class="col-sm-1">
+        <button class="btn btn-outline-danger" id="btnInactivas" onclick="loadMovimientoInactivo();">Salidas</button>
+    </div>
+</div>
+
+<div class="card-body">
+    <table class="table table-hover" id="tablaSucursal">
+        <thead>
+            <tr>
+
+                <th>ID</th>
+                <th>IdProyecto</th>
+                <th>Tipo</th>
+                <th>Cantidad</th>
+                <th>Usuario</th>
+                <th>Fecha</th>
+              
+            </tr>
+        </thead>
+        <tbody id="tbSucursal">
+
+        </tbody>
+    </table>
+</div>
+
+

@@ -1,0 +1,71 @@
+/* 
+    Created on : 22/10/2021, 11:21:11 AM
+    Author     : Mauricio
+*/
+
+/*background-color: #ffa6b4; Color chido*/
+
+#navMain{
+   background-color: #f48fb1;
+}
+
+#nav-login{
+    background-color: #f48fb1;
+}
+
+.login-body{
+    background-color: #fce4ec;
+}
+
+
+
+#container-suc{
+    border: #bf5f82 solid 2px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fce4ec;
+    
+}
+
+#login-container{
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5 px); 
+    border-radius: 16px;
+    border: 3px solid rgba(156, 72, 87, 0.6);
+}
+
+#tablaSucursal{
+    width: 100%;
+}
+
+#tablaEmpleado{
+    width: 100%;
+}
+
+#Logo{
+    width: 85.8px;
+    height: 61.8px;
+}
+
+.footer{
+    background-color: rgba(156,72,87,1);
+    padding: 20px;
+}
+
+
+#Datos{
+    width: 80%;
+    height: 80%;
+    border-style: solid;
+    border-color: #148F77;
+    border-radius: 10px;
+}
+
+#Busqueda{
+    width: 30%;
+    height: 30%;
+}
+
+#theadc{
+    color:#148F77;
+}

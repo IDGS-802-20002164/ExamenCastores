@@ -1,0 +1,99 @@
+<hr size="10">
+<h2 class="text-center" style="font-size: 32px;">Productos</h2>
+<hr size="10">
+<div class="container" id="container-suc">
+    <center>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">ID</span>
+                    <input type="text" class="form-control" id="txtIdPr" disabled="">
+                </div>
+            </div>
+            <br>
+            <div class="col-sm-3">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Nombre</span>
+                    <input type="text" class="form-control" id="txtNombrePr" >
+                </div>
+            </div>
+            <br>
+            
+            <div class="col-sm-3" id="Inventario">
+                <div class="input-group mb-3" >
+                    <span class="input-group-text" id="basic-addon1">Cantidad</span>
+                    <input type="text" class="form-control" id="txtMarcaPr" >
+                </div>
+            </div>
+            <br>
+            <div class="col-sm-3">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Estatus</span>
+                    <input type="text" class="form-control" id="txtEstatusPr">
+                </div>
+            </div>
+            <br>
+            <div class="col-sm-3">
+                <div class="input-group mb-3">
+                    <!--Dejar un espacio en blanco-->
+                </div>
+            </div>
+            <br>
+ 
+
+<div class="col-sm-2">
+    <div class="input-group mb-3">
+        <!-- Agregar un ID al botón para poder referenciarlo desde JavaScript -->
+        <button id="botonGuardar" class="btn btn-outline-success" onclick="saveProducto();" title="Guardar"><i class="far fa-save" style="font-size: 24px;"></i></button>
+    </div>
+</div>
+
+            <br>
+            <div class="col-sm-2">
+                <div class="input-group mb-3">
+                    <button class="btn btn-outline-info" title="Limpiar datos" onclick="clearProductoData();"><i class="fas fa-brush" style="font-size: 24px"></i></button>
+                </div>
+            </div>
+        </div>
+    </center>
+</div>
+<br>
+<div class="row">
+    <div class="col-sm-1" style="padding-right: 5px;">
+        <button class="btn btn-outline-primary" id="btnActivas" onclick="loadProducto();">Activas</button>
+    </div>
+    <div class="col-sm-1">
+        <button class="btn btn-outline-danger" id="btnInactivas" onclick="loadProductoInactivo();">Inactivas</button>
+    </div>
+    <br>
+    <div class="col-sm-2">
+    </div>
+    <br>
+    <br>
+    <div class="col-sm-3">
+        <button class="btn btn-outline-success" type="submit" id="btnBuscarSucursal" onclick="searchBranch();"><i class="fas fa-search"></i></button>
+    </div>
+</div>
+
+
+<div class="card-body">
+    <table class="table table-hover" id="tablaSucursal">
+        <thead>
+            <tr>
+
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Cantidad</th>
+                <th>Estatus</th>
+                <th id="Eliminar">Eliminar</th>
+                <th>Modificar</th>
+              
+            </tr>
+        </thead>
+        <tbody id="tbSucursal">
+
+        </tbody>
+    </table>
+</div>
+
+
